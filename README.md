@@ -9,3 +9,6 @@ To use unstickify.js, simply copy the file into the directory of your choice, an
 
 # Example
 [Example 1](https://github.com/jessehorne/unstickify.js/blob/master/examples/example1.html)
+
+# Sites that use unstickify.js
+[link](https://github.com/jessehorne/unstickify.js/blob/master/Sites.txt)
