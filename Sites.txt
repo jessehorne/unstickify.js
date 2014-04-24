@@ -1,0 +1,4 @@
+This file contains a list of all the websites that currently use unstickify.js.
+To add yours to the list, submit a pull request! :-)
+
+1. https://jessehorne.github.io
