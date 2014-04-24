@@ -2,18 +2,12 @@ unstickify.js
 =============
 
 # What is it?
-unstickify.js is a JavaScript script which makes all of the elements in a document draggable!
+unstickify.js is a simple script which makes all of the elements on a webpage draggable!
 
 # Installation
 To use unstickify.js, simply copy the file into the directory of your choice, and then load it at the bottom of the html file you want it to modify.
 Example
 '''html
-<!doctype html>
-<html>
-<head>
-	<title>unstickify.js test</title>
-</head>
-<body>
 	<div>
 		<h1>Test 1</h1>
 		<p>hi</p>
@@ -25,6 +19,4 @@ Example
 	</div>
 	<!-- hello! -->
 	<script src="../src/unstickify.js"></script>
-</body>
-</html>
 '''
