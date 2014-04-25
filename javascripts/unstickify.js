@@ -10,6 +10,11 @@ document.getElementsByTagName('head')[0].appendChild(css);
 var elements = document.querySelectorAll( 'body *' );
 for (var i = 0; i < elements.length; i++) {
 	elements[i].className = " drag";
+	if (elements[i].href) {
+		elements[i].addEventListener("click", function(e) {
+			e.preventDefault();
+		}, false);
+	}
 }
 
 var _startX = 0;
