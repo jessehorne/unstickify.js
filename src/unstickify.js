@@ -2,7 +2,7 @@
 // If it wasn't for that document, it would have taken me a couple more hours to implement this!
 // Buy the guy who wrote that a beer or 8
 
-(function() {
+(function(root) {
 	var css = document.createElement("style");
 	css.type = "text/css";
 	css.innerHTML = ".drag { position: relative;}"
@@ -32,11 +32,11 @@
 
 	function OnMouseDown(e) {
 		// IE
-		e = e || window.event;
+		e = e || root.event;
 
 		var target = e.target || e.srcElement;
 
-		if ((e.button == 1 && window.event != null || e.button == 0) && 
+		if ((e.button == 1 && root.event != null || e.button == 0) && 
 				target.className.indexOf("drag") > -1) {
 			Config.startX = e.clientX;
 			Config.startY = e.clientY;
@@ -54,7 +54,7 @@
 
 	function OnMouseMove(e) {
 		if (e == null) {
-			var e = window.event;
+			var e = root.event;
 		}
 
 		Config.dragElement.style.left = (Config.offsetX + e.clientX - Config.startX) + "px";
@@ -78,4 +78,4 @@
 	function $(id) {
 		return document.getElementById(id);
 	}
-})();
+})(window);
