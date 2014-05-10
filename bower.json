@@ -1,0 +1,24 @@
+{
+  "name": "unstickify.js",
+  "version": "0.0.2",
+  "homepage": "jessehorne.github.io/unstickify.js",
+  "authors": [
+    "Jesse Horne <=>"
+  ],
+  "description": "A simple script that makes all elements on your page draggable.",
+  "main": "./src/unstickify.js",
+  "keywords": [
+    "unstickify",
+    "unstick",
+    "drag",
+    "draggable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
