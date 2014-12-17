@@ -1,6 +1,5 @@
 // If you're reading this, go to this link -> http://luke.breuer.com/tutorial/javascript-drag-and-drop-tutorial.aspx
 // If it wasn't for that document, it would have taken me a couple more hours to implement this!
-// Buy the guy who wrote that a beer or 8
 
 (function(root) {
 	var css = document.createElement("style");
