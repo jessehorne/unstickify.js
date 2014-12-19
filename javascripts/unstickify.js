@@ -12,7 +12,7 @@ for (var i = 0; i < elements.length; i++) {
 	elements[i].className = " drag";
 	if (elements[i].href) {
 		elements[i].addEventListener("click", function(e) {
-			e.preventDefault();
+			//e.preventDefault();
 		}, false);
 	}
 }
@@ -63,7 +63,7 @@ function OnMouseUp(e) {
 	if (_dragElement != null) {
 		_dragElement.style.zIndex = _oldZIndex;
 		document.onmousemove = null;
-		// document.onselectstart = null;
+		document.onselectstart = null;
 		_dragElement.ondragstart = null;
 		_dragElement = null;
 	}
