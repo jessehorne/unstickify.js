@@ -63,7 +63,7 @@ function OnMouseUp(e) {
 	if (_dragElement != null) {
 		_dragElement.style.zIndex = _oldZIndex;
 		document.onmousemove = null;
-		document.onselectstart = null;
+		// document.onselectstart = null;
 		_dragElement.ondragstart = null;
 		_dragElement = null;
 	}
