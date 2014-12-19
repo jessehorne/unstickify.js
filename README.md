@@ -12,3 +12,8 @@ To use unstickify.js, simply copy the file into the directory of your choice, an
 
 # Sites that use unstickify.js
 [link](https://github.com/jessehorne/unstickify.js/blob/master/Sites.txt)
+
+#IRC
+```
+##jesseh, #jimbus on irc.freenode.net
+```
